@@ -37,6 +37,7 @@ Topics are grouped into top-level directories:
 | `probability/` | Expected value, random sampling |
 | `scripts/` | Binary search/exponentiation, sorting, ternary search, quickselect |
 | `strings/` | KMP, Z-algorithm, suffix arrays, hashing, Aho-Corasick, Manacher |
+| `languages/` | Language-specific reference: `cpp/` (custom comparators, bitset, overflow, reading inputs, ...) and `python/` |
 | `images/` | Supporting diagrams referenced by the notes |
 
 ## Compiling C++ examples
