@@ -65,7 +65,7 @@ void solve() {
 
 This one is slightly different than above, you are given some fixed amount of each item, but I think you can treat it like 0/1 knapsack if you treat each item as an individual item. 
 
-This uses binary grouping optimization to basically convert it into 0/1 knapsack problem
+This uses binary grouping optimization to basically convert it into 0/1 knapsack problem. See [binary_grouping.md](binary_grouping.md) for why the powers-of-two + leftover decomposition covers every count `0..m` with only `O(log m)` blocks.
 
 ```cpp
 int N, W;

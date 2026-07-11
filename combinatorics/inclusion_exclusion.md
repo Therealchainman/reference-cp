@@ -5,6 +5,18 @@ The Principle of Inclusion and Exclusion (PIE) is a fundamental counting tool in
 |A U B| = |A| + |B| - |A ∩ B|
 size of union when size of intersection is known.
 
+## Size of a union of n sets
+
+The general form for the size of a union of $n$ sets $A_1, A_2, \dots, A_n$:
+
+$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_{\varnothing \neq S \subseteq \{1,\dots,n\}} (-1)^{|S|+1} \left|\bigcap_{i \in S} A_i\right|$$
+
+Expanded into the alternating sum: add all singletons, subtract all pairwise intersections, add all triples, and so on.
+
+$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| \;-\; \sum_{i<j} |A_i \cap A_j| \;+\; \sum_{i<j<k} |A_i \cap A_j \cap A_k| \;-\; \cdots \;+\; (-1)^{n+1}\left|A_1 \cap \cdots \cap A_n\right|$$
+
+The sign is $(-1)^{|S|+1}$: **positive** for odd-sized intersections, **negative** for even-sized ones. Setting $n=2$ recovers the two-set case above.
+
 # De Morgan's Law — Intersection of Complements
 
 $$\bigcap_{i=1}^{n} A_i^c = \left(\bigcup_{i=1}^{n} A_i\right)^c$$
