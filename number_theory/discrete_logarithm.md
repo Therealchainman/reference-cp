@@ -1,6 +1,6 @@
 # Discrete Logarithm
 
-Solve the for the integer x in the equation $a^x \equiv b \pmod{m}$. This is also known as the discrete logarithm problem.  Where x is the discrete log. 
+Solve the for the integer x in the equation $a^x \equiv b \pmod{m}$. This is also known as the discrete logarithm problem.  Where x is the discrete log. In other words, the inverse to exponentiation over a finite cyclic group
 
 ## Baby Step Giant Step
 
