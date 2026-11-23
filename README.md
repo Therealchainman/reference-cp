@@ -40,6 +40,11 @@ Topics are grouped into top-level directories:
 | `languages/` | Language-specific reference: `cpp/` (custom comparators, bitset, overflow, reading inputs, ...) and `python/` |
 | `images/` | Supporting diagrams referenced by the notes |
 
+## Concept notes
+
+- [Ising model and bootstrap percolation](mathematics/ising_model_and_bootstrap_percolation.md) — interacting binary variables, threshold activation, and how local rules produce collective behavior.
+- [Diffusion models](probability/diffusion_models.md) — Gaussian noise, training and generation, probability distributions, and connections to statistical mechanics.
+
 ## Compiling C++ examples
 
 ```sh
